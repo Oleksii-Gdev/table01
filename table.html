@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, th, td {
+            border-collapse: separate;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 400px; height: 400px;">
+        <caption>First table</caption>
+        <thead>
+            <tr>
+                <th colspan="5">1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">6</td>
+                <td>7</td>
+                <td rowspan="2">8</td>
+                <td>9</td>
+                <td rowspan="2">10</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2" colspan="2">16</td>
+                <td>18</td>
+                <td rowspan="2" colspan="2">19</td>
+            </tr>
+            <tr>
+                <td>23</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
