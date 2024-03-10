@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <link rel="stylesheet" href="css/styles.css">
     <style>
         table, th, td {
             border-collapse: separate;
@@ -12,34 +13,34 @@
     </style>
 </head>
 <body>
-    <table style="width: 400px; height: 400px;">
+    <table class="box">
         <caption>First table</caption>
         <thead>
             <tr>
-                <th colspan="5">1</th>
+                <th colspan="5" class="one">1</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="2">6</td>
-                <td>7</td>
-                <td rowspan="2">8</td>
-                <td>9</td>
-                <td rowspan="2">10</td>
+                <td rowspan="2" class="tw">6</td>
+                <td class="qw">7</td>
+                <td rowspan="2" class="thr">8</td>
+                <td class="qwe">9</td>
+                <td rowspan="3" class="fou">10</td>
             </tr>
             <tr>
-                <td>12</td>
-                <td>14</td>
+                <td class="qwer">12</td>
+                <td class="qwert">14</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td rowspan="2" colspan="2">16</td>
-                <td>18</td>
-                <td rowspan="2" colspan="2">19</td>
+                <td rowspan="2" colspan="2" class="fi">16</td>
+                <td class="zxc">18</td>
+                <td rowspan="2" colspan="2" class="si">19</td>
             </tr>
             <tr>
-                <td>23</td>
+                <td class="zxcv">23</td>
             </tr>
         </tfoot>
     </table>

@@ -1,0 +1,34 @@
+@import url('reset.css');
+
+body {
+background: yellow;
+}
+
+.box {
+width: 400px;
+height: 400px;
+margin: 0 auto;
+}
+
+.one {
+    background-color: aqua;
+}
+.tw, .fou {
+    background-color: bisque;
+}
+.thr {
+    background-color: blueviolet;
+}
+.fi, .si {
+    background-color: brown;
+}
+.qw, .qwe, .qwer, .qwert {
+background-color: aliceblue;
+}
+.zxc, .zxcv {
+    background-color: green;
+}
+caption {
+    color: green;
+    font-size: 30px;
+}
